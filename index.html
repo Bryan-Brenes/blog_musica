@@ -14,38 +14,145 @@
 
 <body>
 
-    <div class="row">
-        <div class="col-md-6 col-sm-12 img-container">
-            <img class="img-logo" src="img/logo.png" alt="logo del blog">
-        </div>
-        <div class="col-md-6 col-sm-12" style="position: relative;">
-            <div class="btn-group redes-sociales" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-secondary"><i class="fab fa-facebook-square"></i></button>
-                <button type="button" class="btn btn-secondary"><i class="fab fa-twitter-square"></i></button>
-                <button type="button" class="btn btn-secondary"><i class="fab fa-pinterest-square"></i></button>
-                <button type="button" class="btn btn-secondary"><i class="fab fa-youtube-square"></i></button>
-                <button type="button" class="btn btn-secondary"><i class="fab fa-instagram"></i></button>
+    <div class="contenedor">
+        <div class="row">
+            <div class="col-md-6 col-sm-12 img-container">
+                <img class="img-logo" src="img/logo.png" alt="logo del blog">
+            </div>
+            <div class="col-md-6 col-sm-12 redes-sociales-container">
+                <div class="btn-group redes-sociales" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-secondary"><i class="fab fa-facebook-square"></i></button>
+                    <button type="button" class="btn btn-secondary"><i class="fab fa-twitter-square"></i></button>
+                    <button type="button" class="btn btn-secondary"><i class="fab fa-pinterest-square"></i></button>
+                    <button type="button" class="btn btn-secondary"><i class="fab fa-youtube-square"></i></button>
+                    <button type="button" class="btn btn-secondary"><i class="fab fa-instagram"></i></button>
+                </div>
             </div>
         </div>
-    </div>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">Blog musical</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Grupos</a>
+                <a class="nav-item nav-link" href="#">Artistas</a>
+                <a class="nav-item nav-link" href="#">Top 10</a>
+                <a class="nav-item nav-link" href="#">Letras</a>
+                <a class="nav-item nav-link" href="#">Conciertos</a>
             </div>
         </div>
     </nav>
+
+    <div class="contenedor">
+        <div class="row">
+            <div class="col-sm-12 col-md-9">
+                <div class="row artista">
+                    <div class="col-sm-12 col-lg-7">
+                        <h4>Metallica</h4>
+                        <p>Metallica es una banda de thrash metal estadounidense que se origina en Los Ángeles, pero con
+                            base en San Francisco desde febrero de 1983. Fue fundada en 1981 en Los Ángeles por Lars
+                            Ulrich y James Hetfield, a los que se les unirían Dave Mustaine y Ron McGovney. Estos dos
+                            músicos fueron después sustituidos por el guitarrista Kirk Hammett y el bajista Cliff Burton
+                            respectivamente, Dave Mustaine fue despedido un año después de ingresar en la banda debido a
+                            su excesiva adicción al alcohol y su actitud violenta, siendo sustituido por Kirk Hammett
+                            (ex guitarrista de Exodus). Ron renuncia a la banda debido al mal comportamiento de Dave
+                            Mustaine, el cual era violento y problemático cuando estaba bajo el efecto del alcohol. El
+                            colmo fue cuando Mustaine mojó el bajo de Ron con cerveza, él sin saberlo lo conectó,
+                            recibiendo una descarga eléctrica. Es entonces, tras contactar con Cliff Burton que la banda
+                            se traslada a San Francisco. (Cabe resaltar que Ron sabía que lo iban a despedir y sustituir
+                            por Cliff Burton). Por otra parte, el 27 de septiembre de 1986, fue la muerte de Cliff
+                            Burton en un accidente de autobús en Suecia, durante una de sus giras, esto provocó la
+                            entrada al grupo de Jason Newsted,1​ quien, tras su abandono quince años más tarde, sería
+                            sustituido por el bajista actual, Robert Trujillo.</p>
+                    </div>
+                    <div class="col-sm-12 col-lg-5">
+                        <img class="" src="img/metallica-1.jpg" alt="imagen metallica" style="max-width: 100%;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-2 col-sm-1 img-perfil">
+                                <img class="img-fluid circular" src="img/userDefault.png" alt="imagen usuario">
+                            </div>
+                            <div class="col-10 col-sm-11">
+                                <div class="form-group">
+                                    <textarea class="form-control comentario" id="exampleFormControlTextarea1" placeholder="Comentario"
+                                        rows="2"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row artista">
+                    <div class="col-sm-12 col-lg-7">
+                        <h4>Five finger death punch</h4>
+                        <p>Five Finger Death Punch (abreviado como 5FDP o FFDP) es una banda estadounidense de Groove
+                            Metal de Las Vegas, Nevada. Formada en 2005, el nombre del grupo está derivado de cine de
+                            artes marciales orientales clásico. La banda originalmente estuvo formada por el cantante
+                            Ivan Moody, el guitarrista Zoltan Bathory, el guitarrista Caleb Bingham, el bajista Matt
+                            Snell y el percusionista Jeremy Spencer. Bingham fue reemplazado por Darrell Roberts en
+                            2006, y este lo fue por Jason Hook en 2009. Matt Snell salió de la banda en 2010, siendo
+                            sustituido por Chris Kael en 2011. Su primer álbum The Way of the Fist era lanzado en 2007.
+                            Después de su lanzamiento, la banda empezó a lograr éxitos rápidamente. El álbum siguiente
+                            de 2009 War Is the Answer aumentó más su popularidad, contribuyendo a los dos álbumes
+                            estando certificado «oro» por el RIAA, vendiendo más de 500 000 copias en los Estados
+                            Unidos. El tercer álbum de la banda, titulado American Capitalist fue lanzado el 11 de
+                            octubre de 2011. La banda había tocado festivales internacionales de música incluyendo
+                            Mayhem Festival en 2008 y 2010, y Download Festival en 2009 y 2010</p>
+                    </div>
+                    <div class="col-sm-12 col-lg-5 order-lg-first">
+                        <img class="" src="img/f5dp.jpg" alt="imagen five finger death punch" style="max-width: 100%;">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-2 col-sm-1 img-perfil">
+                                <img class="img-fluid circular" src="img/userDefault.png" alt="imagen usuario">
+                            </div>
+                            <div class="col-10 col-sm-11">
+                                <div class="form-group">
+                                    <textarea class="form-control comentario" id="exampleFormControlTextarea1" placeholder="Comentario"
+                                        rows="2"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-md-block col-md-3">
+                <form action="#">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">Artista</a>
+                        <a href="#" class="list-group-item list-group-item-action">Álbum</a>
+                        <a href="#" class="list-group-item list-group-item-action active">Fecha de conformación</a>
+                        <a href="#" class="list-group-item list-group-item-action">Cantidad de integrantes</a>
+                        <a href="#" class="list-group-item list-group-item-action">Popularidad</a>
+                        <a href="#" class="list-group-item list-group-item-action">Cantidad de álbumes</a>
+                        <a href="#" class="list-group-item list-group-item-action">Vocalista</a>
+                        <a href="#" class="list-group-item list-group-item-action">Baterista</a>
+                        <a href="#" class="list-group-item list-group-item-action">Bajista</a>
+                        <a href="#" class="list-group-item list-group-item-action">Guitarrista</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
